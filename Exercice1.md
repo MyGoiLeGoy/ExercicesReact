@@ -17,14 +17,15 @@ Initialiser une application React avec Vite avec pour nom "exercices-react" en T
 exercices-react
 └───public
 └───src
-│   └─── assets       
+│   └─── assets
+|       └─── //Contiendra toutes les images/fichiers autres que du code       
 │   └─── components
+|       └─── //Contiendra les composants de vos pages
 │   └─── context
 │   └─── pages
-|       └─── accueil.tsx
-|       └─── compteurReact.tsx
-|       └─── compteur.css
+|       └─── //Contiendra vos pages
 │   └─── layouts
+|       └─── //Contiendra les mises en page
 │   index.css
 │   main.tsx
 |   vite-env.d.ts
