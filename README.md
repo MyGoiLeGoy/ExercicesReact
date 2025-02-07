@@ -22,6 +22,7 @@ Et pour que votre devanture de magasin affiche combien de chats vous avez en sto
 
 ## Idée d'implémentation
 
+- Installer tanstack store `npm install @tanstack/react-store`
 - Créer un fichier `catStore.ts`
 - Implémenter une interface `<CatState>` avec pour seul attribut le `count` qui va stocker le nombre de chats
 - Implémenter le store avec `export const catStore = new Store<CatState>()` et qui va initialiser le compte à 0.
