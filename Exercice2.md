@@ -3,8 +3,12 @@
 ## Intitulé
 
 - Initialiser un routeur react
-- Faire deux pages "Accueil" et "Compteur react"
-- Definir les routes vers les pages en question
+  - faire un nouveau dossier routes dans src: src/routes
+  - instancier un fichier __root.tsx
+  - (optionnel) externaliser un fichier routes.ts qui contiendra toutes les routes
+- Definir les routes vers les pages en question dans un fichier routes.tsx
+- Faire un lien allant de "Accueil" vers "Compteur"
+- Faire un lien retour de "Compteur" vers "Accueil"
 
 Conseil: Pour faire simple, faîtes des routes dites [https://tanstack.com/router/latest/docs/framework/react/guide/file-based-routing]("file-based") et [https://tanstack.com/router/latest/docs/framework/react/guide/file-based-routing#flat-routes]("flat")
 
