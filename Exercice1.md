@@ -41,4 +41,4 @@ vite.config.ts
 
 ## Ressources
 
-[https://vite.dev/guide/](Guide Vite)
+[Guide Vite](https://vite.dev/guide/#scaffolding-your-first-vite-project)
