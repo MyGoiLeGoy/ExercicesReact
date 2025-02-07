@@ -1,10 +1,10 @@
 # Exercice 1: créer son application Vite
 
 ## Intitulé de l'exercice
+Initialiser une application React avec Vite avec pour nom "exercices-react" en Typescript
 
-### Initialiser une application React avec Vite avec pour nom "exercices-react" en Typescript
-
-> *Optionnel: si vous ne voulez pas faire tout ça, vous pouvez changer de branche directement vers le corrigé de l'exercice*
+## Optionnel: Créer une structure de base pour tous vos projets Vite
+> Si vous ne voulez pas faire tout ça, vous pouvez changer de branche directement vers le corrigé de l'exercice et passer à l'exo 2.
 > Le but de cet exercice est de vous donner une architecture de base pour vos projets react !
 
 - Retirer ou déplacer quelques fichiers dits "de base":
