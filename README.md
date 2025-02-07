@@ -58,6 +58,9 @@ vite.config.ts
 
 ## Exercice 2: Installation d'un routeur (Tanstack Router)
 
+### Prérequis
+Être sur la branche `exercice-1-architecture de base` ou avoir un espace de travail équivalent
+
 ### Intitulé
 
 - Initialiser un routeur react
