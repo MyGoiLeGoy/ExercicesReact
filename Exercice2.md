@@ -8,7 +8,7 @@
 
 Conseil: Pour faire simple, faîtes des routes dites [https://tanstack.com/router/latest/docs/framework/react/guide/file-based-routing]("file-based") et [https://tanstack.com/router/latest/docs/framework/react/guide/file-based-routing#flat-routes]("flat")
 
-### Idée d'implémentation:
+## Idée d'implémentation:
 - Installez et configurez le plugin Vite en ajoutant `TanStackRouterVite({ autoCodeSplitting: true }),` dans le tableau `defineConfig.plugins` de `vite.config.ts`
 - Ensuite créez vos pages index.tsx et compteur.tsx
 - Créez un dossier routes dans src/routes/
