@@ -1,5 +1,9 @@
 # Exercices
 
+## Préambule
+
+Vous trouverez les corrigés dans les différentes branches du projet 😊
+
 ## Prérequis
 
 Vous devez avoir au préalable installé:
@@ -11,20 +15,29 @@ Vous devez avoir au préalable installé:
 
 ### Intitulé de l'exercice
 
-- Initialiser une application React avec Vite avec pour nom "exercices-react" en Typescript
+**Initialiser une application React avec Vite avec pour nom "exercices-react" en Typescript**
+
+> *Optionnel: si vous ne voulez pas faire tout ça, vous pouvez changer de branche directement vers le corrigé de l'exercice*
+> Le but de cet exercice est de vous donner une architecture de base pour vos projets react !
+
+- Retirer ou déplacer quelques fichiers dits "de base":
+    - App.css et App.tsx -> Déplacer vers un dossier /src/pages/CompteurReact (toutes vos pages doivent être dans PAGES)
+    - Supprimer le index.css
+    - Refaire les références aux autres fichiers css
 - Etablir une architecture de base:
 
 ```
 exercices-react
 └───public
 └───src
-│   └───assets       
-│   └───components
-│   └───context
-│   └───pages
-│   └───layouts
-|   App.css
-│   App.tsx
+│   └─── assets       
+│   └─── components
+│   └─── context
+│   └─── pages
+|       └─── accueil.tsx
+|       └─── compteurReact.tsx
+|       └─── compteur.css
+│   └─── layouts
 │   index.css
 │   main.tsx
 |   vite-env.d.ts
@@ -41,6 +54,20 @@ vite.config.ts
 
 ### Ressources
 
-https://vite.dev/guide/
+[https://vite.dev/guide/](Guide Vite)
 
-## Exercice 2: 
+## Exercice 2: Installation d'un routeur (Tanstack Router)
+
+### Intitulé
+
+- Initialiser un routeur react
+- Faire deux pages "Accueil" et "Compteur react"
+- Definir les routes vers les pages en question
+
+Conseil: Pour faire simple, faîtes des routes dites [https://tanstack.com/router/latest/docs/framework/react/guide/file-based-routing]("file-based") et [https://tanstack.com/router/latest/docs/framework/react/guide/file-based-routing#flat-routes]("flat")
+
+### Ressources
+
+- [https://tanstack.com/router/latest/docs/framework/react/installation](Installation de Tanstack Router)
+- [https://tanstack.com/router/latest/docs/framework/react/quick-start](Démarrage rapide)
+- [https://tanstack.com/router/latest/docs/framework/react/guide/file-based-routing#configuration-with-vite](Configuration avec Vite)
