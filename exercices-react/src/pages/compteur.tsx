@@ -1,33 +1,27 @@
-import { useState } from 'react'
-import reactLogo from '../assets/react.svg'
-import './style.css'
-import { Link } from '@tanstack/react-router'
+import catLogo from "../assets/cat.svg";
+import "./style.css";
+import { Link } from "@tanstack/react-router";
 
 function Compteur() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <div>
         <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+          <img src={catLogo} className="logo react" alt="Cat logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Do we need more cats ?</h1>
+      <h2>cat count: ???</h2>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+        <button onClick={() => alert("Not implemented !")}>Yes</button>
       </div>
 
       <button>
-        <Link to='/'>Retour à l'accueil</Link>
+        <Link to="/">Retour à l'accueil</Link>
       </button>
     </>
-  )
+  );
 }
 
-export default Compteur
+export default Compteur;
