@@ -1,4 +1,4 @@
-import reactLogo from "../assets/react.svg";
+import catLogo from "../assets/cat.svg";
 import "./style.css";
 import { Link } from "@tanstack/react-router";
 import { catStore, catStoreActions } from "../context/catStore";
@@ -10,8 +10,8 @@ function Compteur() {
   return (
     <>
       <div>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        <a href="https://www.youtube.com/shorts/Po098TRdOn4" target="_blank">
+          <img src={catLogo} className="logo react" alt="React logo" />
         </a>
       </div>
       <h1>Do we need more cats ?</h1>
