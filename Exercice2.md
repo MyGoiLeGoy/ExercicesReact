@@ -8,7 +8,7 @@
 
 Conseil: Pour faire simple, faîtes des routes dites [https://tanstack.com/router/latest/docs/framework/react/guide/file-based-routing]("file-based") et [https://tanstack.com/router/latest/docs/framework/react/guide/file-based-routing#flat-routes]("flat")
 
-## Idée d'implémentation:
+## Idée d'implémentation
 - Installez et configurez le plugin Vite en ajoutant `TanStackRouterVite({ autoCodeSplitting: true }),` dans le tableau `defineConfig.plugins` de `vite.config.ts`
 - Ensuite créez vos pages index.tsx et compteur.tsx
 - Créez un dossier routes dans src/routes/
@@ -34,3 +34,12 @@ Conseil: Pour faire simple, faîtes des routes dites [https://tanstack.com/route
 - [https://tanstack.com/router/latest/docs/framework/react/installation](Installation de Tanstack Router)
 - [https://tanstack.com/router/latest/docs/framework/react/quick-start#manual-setup](Démarrage rapide)
 - [https://tanstack.com/router/latest/docs/framework/react/guide/file-based-routing#configuration-with-vite](Configuration avec Vite)
+
+## Bonus
+
+- Vous pouvez voir le [https://tanstack.com/router/latest/docs/framework/react/guide/code-splitting](Code splitting) afin de séparer configuration **critique** de celle qui est **non-critique** (++ clarté)
+- Essayer la version [https://tanstack.com/router/latest/docs/framework/react/guide/code-based-routing](Code-based routing) (Si vous le souhaitez vraaaaaiment mais je n'ai pas trouvé une utilité critique à cela)
+
+## Quand vous aurez fini
+
+Passez sur la branche `exercice-3-store-begin`
